@@ -1,5 +1,34 @@
+@font-face {
+    font-family: Archangelsk;
+    src: url(fonts/ofont.ru_Archangelsk.ttf);
+}
+header {
+    background: url(assets/background.svg);
+    width: 1920px;
+    height: 1000px;
+}
 
+.H-back {
+    display: flex;
+    margin: 531.5px 0 0 976px ;
+}
 
+.H-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 320px 0 320px;
+}
 
+.H-social_media img {
+    margin-left: 40px;
+}
 
-
+.H-back-text {
+    position: absolute;
+    left: 1046px;
+    bottom: 337px;
+    font-family: Archangelsk;
+    font-weight: 100;
+    font-size: 25px;
+}
