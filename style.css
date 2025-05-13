@@ -25,9 +25,9 @@ header {
 }
 
 .H-back-text {
-    position: absolute;
-    left: 1046px;
-    bottom: 337px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
     font-family: Archangelsk;
     font-weight: 100;
     font-size: 25px;
