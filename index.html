@@ -4,69 +4,90 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Web_site</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
         <header class="H">
             <div class="H-info">
                 <div class="H-top">
-                    <div class="H-logo">
-                        <img src="assets/Cyberpunk_2077_logo.svg" alt="logo">
-                    </div>               
+                                   
                     <div class="H-social_media container">
-                        <img src="assets/youtube logo.svg" alt="youtube.com">
-                        <img src="assets/VK.svg" alt="VK.com">
-                        <img src="assets/facebook-rect logo.svg" alt="facebook.com">
-                        <img src="assets/twitter-square logo.svg" alt="logo">
-                        <img src="assets/twitch logo.svg" alt="twitch.com">
-                        <img src="assets/instagram-square logo.svg" alt="instagram.com">
-                    </div>
+                        <div class="H-logo">
+                            <img src="assets/Cyberpunk_2077_logo.svg" alt="logo">
+                        </div>
+                        <div class="H-logos">
+                            <img src="assets/youtube logo.svg" alt="youtube.com">
+                            <img src="assets/VK.svg" alt="VK.com">
+                            <img src="assets/facebook-rect logo.svg" alt="facebook.com">
+                            <img src="assets/twitter-square logo.svg" alt="logo">
+                            <img src="assets/twitch logo.svg" alt="twitch.com">
+                            <img src="assets/instagram-square logo.svg" alt="instagram.com">                            
+                        </div>
+
+                    </div>    
+                        <div class="H-back-text">
+                            <button class="know_more">Узнать больше</button>
+                            <h1>Доступно на <br>
+                                всех платформах</h1>
+                            <img src="assets/yellow.svg" alt="Yellow">
+                        </div>                        
                 </div>
-                <div class="H-conteiner ">
-                    <div class="H-back-text">
-                        <h1>Доступно на <br>
-                            всех платформах</h1>
-                    </div>
-                    <div class="H-back">
-                        <img src="assets/yellow.svg" alt="Yellow">
-                    </div>
-                </div>
+           
                 
             </div>
         </header>
         <main>
-            <section>
+            <section class="S-1">
+                <div>
                 <h1>Найт-Сити изменит тебя навсегда!</h1>
-                <p>Cyberpunk 2077 — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где
-                    власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, 
-                    позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего 
+                <p class="S-1_info"><span class="Cyberpunk">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где<br>
+                    власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, <br>
+                    позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего <br>
                     персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
-                    <img src="assets/Rectangle 1.svg" alt="town">
-                    <img src="assets/Rectangle 2.svg" alt="night_city">
-                    <img src="assets/Rectangle 3.svg" alt="motorbike">
+                    <div class="ractangles">
+                        <div class="rectungls">
+                            <div class="rect23">
+                                <img src="assets/Rectangle 3.svg" alt="motorbike">
+                                <img src="assets/Rectangle 2.svg" alt="night_city"> 
+                            </div>
+                                <img class="rect1" src="assets/Rectangle 1.svg" alt="town">
+                        </div> 
+                        
+                    </div>
+                </div>
+                
+            </section>
+            <section class="play">
+                <img src="assets/grad.svg" alt="Sell!">
+                <div>
+                    <img src="assets/Sell.svg" alt="grad">
+                    <h1>Играй и выигрывай!</h1>
+                    <p>Играй в Cyberpunk 2077 и получи возможность выиграть консоль Xbox Series X или Sony PlayStation 5! 
+                        Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
+                    <input type="name" placeholder="Как тебя зовут?">
+                    <input type="email" placeholder="Твой email">
+                    <input type="screenshot" placeholder="Прикрепить скриншот">
+                    <img src="assets/Play stations.svg" alt="Play stations">
+                    <button>Отправить</button>
+                </div>
             </section>
             <section>
-                <img src="assets/Sell.svg" alt="Sell!">
-                <h1>Играй и выигрывай!</h1>
-                <p>Играй в Cyberpunk 2077 и получи возможность выиграть консоль Xbox Series X или Sony PlayStation 5! 
-                    Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
-                <input type="name" placeholder="Как тебя зовут?">
-                <input type="email" placeholder="Твой email">
-                <input type="screenshot" placeholder="Прикрепить скриншот">
-                <img src="assets/Play stations.svg" alt="Play stations">
-                <button>Отправить</button>
-            </section>
-            <section>
-                <img src="assets/monitor.svg" alt="Monitor">
-                <h1>Полное погружение вместе с HP</h1>
-                <p>Погрузись в современные экшен-игры с реалистичным изображением с 
-                   помощью монитора с диагональю 23,8 дюйма, созданном для 
-                   отображения максимально насыщенных цветов. Успевай реагировать 
-                   на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
-                <p><img src="assets/color_lens.svg" alt="Color lens"> Яркие насыщенные цвета </p>  
-                <p><img src="assets/sparks.svg" alt="Color lens"> Кристальная четкость изображения </p> 
-                <p><img src="assets/lists.svg" alt="Color lens"> Быстрые движения и плавный геймплей </p>
-                <button>Подробнее</button>  
+                <img src="assets/grad_2.svg" alt="grad2">
+                <div>
+                    <img src="assets/monitor.svg" alt="Monitor">
+                    <h1>Полное погружение вместе с HP</h1>
+                    <p>Погрузись в современные экшен-игры с реалистичным изображением с 
+                    помощью монитора с диагональю 23,8 дюйма, созданном для 
+                    отображения максимально насыщенных цветов. Успевай реагировать 
+                    на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
+                    <p><img src="assets/color_lens.svg" alt="Color lens"> Яркие насыщенные цвета </p>  
+                    <p><img src="assets/sparks.svg" alt="Color lens"> Кристальная четкость изображения </p> 
+                    <p><img src="assets/lists.svg" alt="Color lens"> Быстрые движения и плавный геймплей </p>
+                    <button>Подробнее</button> 
+                 </div>
             </section>
         </main>
         <footer>

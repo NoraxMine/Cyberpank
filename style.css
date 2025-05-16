@@ -2,7 +2,7 @@
     font-family: Archangelsk;
     src: url(fonts/ofont.ru_Archangelsk.ttf);
 }
-header {
+.H {
     background: url(assets/background.svg);
     width: 1920px;
     height: 1000px;
@@ -10,7 +10,7 @@ header {
 
 .H-back {
     display: flex;
-    margin: 531.5px 0 0 976px ;
+    margin: 398px 0 0 976px ;
 }
 
 .H-top {
@@ -26,9 +26,28 @@ header {
 
 .H-back-text {
     position: relative;
-    left: 0px;
-    bottom: 0px;
+    left: 1046px;
+    top: 592px;
     font-family: Archangelsk;
     font-weight: 100;
     font-size: 25px;
+}
+
+.know_more {
+    display: flex;
+    border: none;
+    color:#F8F200;
+    background-color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    align-items: center;
+    width: 272px;
+    height: 78px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.H-container {
+    display: flex;
 }

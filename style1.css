@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Archangelsk;
+    src: url(fonts/ofont.ru_Archangelsk.ttf);
+}
+
+*{
+    margin:0;
+}
+
+h1 {
+    font-family: Archangelsk;
+    font-weight: 400;
+    font-size: 62px;
+}
+
+.H {
+    background: url(assets/background.svg);
+    width: 1920px;
+    height: 1000px;
+}
+
+.H-back {
+    display: flex;
+    width: 624px;
+    height: 369px;    
+    margin-left: 200px;
+}
+
+.H-logos img {
+    margin-left: 40px;
+}
+
+.H-social_media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 320px 0 320px;
+    width: 1280px;
+    height: 74px;
+}
+
+.H-back-text h1 {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.H-back-text button {
+    position:absolute;
+    margin-top:221px;
+    margin-left: 70px;
+}
+
+.H-back-text {
+    position: relative;
+    left: 1046px;
+    top: 537px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.know_more {
+    display: flex;
+    border: none;
+    color:#F8F200;
+    background-color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    width: 272px;
+    height: 78px;
+}
+
+.S-1 h1 {
+    margin-left: 320px;
+    margin-top: 70px;
+}
+
+.Cyberpunk {
+    font-weight: 700;
+    color: #52BEDC;
+}
+
+.S-1_info {
+    margin-top: 25px;
+    margin-left: 320px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color:#686670;
+}
+
+.rect1 {
+    margin-top: 70px;
+    margin-left: 812px;
+}
+
+.rect23 img {
+    display: block;
+
+}
+
+
+.play {
+    background-color: black;
+}
