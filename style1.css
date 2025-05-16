@@ -94,13 +94,18 @@ h1 {
 }
 
 .rect1 {
-    margin-top: 70px;
-    margin-left: 812px;
+    margin-left: 32px;
 }
 
 .rect23 img {
     display: block;
+    margin-top: 10px;
+    margin-left: 320px;
+}
 
+.rectungls {
+    display: flex;
+    margin-top: 70px;
 }
 
 
