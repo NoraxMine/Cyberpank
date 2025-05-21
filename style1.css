@@ -59,6 +59,10 @@ h1 {
     font-size: 25px;
 }
 
+.S-2 {
+    width: 1920px;
+}
+
 .know_more {
     display: flex;
     border: none;
@@ -78,7 +82,7 @@ h1 {
     margin-top: 70px;
 }
 
-.Cyberpunk {
+.Blue_color {
     font-weight: 700;
     color: #52BEDC;
 }
@@ -108,7 +112,102 @@ h1 {
     margin-top: 70px;
 }
 
-
-.play {
+.S-2 {
     background-color: black;
+}
+
+.S-2-text {
+    color:aliceblue;
+    position:relative; 
+    left: 320px;
+}
+
+.S-2-sell {
+    display:flex;
+    align-items: center;
+}
+
+.S-2-text_1 {
+    margin-left: 32px;
+    margin-top: 40px;
+}
+
+.S-2-play {
+    margin-top: 39px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.S-2-forms {
+    display: flex;
+    align-items: end;
+}
+
+.S-2-inputs {
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    left:320px
+}
+
+.S-2-inputs-img{
+    display:flex;
+    align-items: center;
+    position: relative;
+    left: 320px;
+}
+
+.name {
+    background-color:black;
+    border: solid 1px #777777;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 460px;
+    height: 35px;
+}
+
+.email {
+    background-color:black;
+    border: solid 1px #777777;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 35px 0 35px 0;
+    width: 460px;
+    height: 35px;
+}
+
+.screenshot {
+    background-color:black;
+    width: 460px;
+    height: 120px;
+    margin-bottom: 35px;
+    border: dashed #777777 1px;
+}
+
+.screenshot placeholder {
+    display: flex;
+    justify-content: space-around;1111111111111111
+}
+
+.send {
+    width: 192px;
+    height: 59px;
+    padding: 15px 50px 15px 50px;
+    background-color: #F8F200;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+
+.S-2-inputs-data-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    color:#FFFFFF;
 }
