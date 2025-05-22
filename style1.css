@@ -186,11 +186,24 @@ h1 {
     height: 120px;
     margin-bottom: 35px;
     border: dashed #777777 1px;
-    padding-top: 39px;
 }
 
-.screenshot::placeholder {
-    display: flex;
+.scr-text {
+    position: relative;
+    top:39px;
+    left: 137px;
+    font-weight: 100;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.scr-text-formats {
+    font-size: 12px;
+    font-weight: 300;
+    color:#FFFFFF;
+    position: relative;
+    top:67px;
+    font-weight: 100;
 }
 
 .send {
@@ -200,7 +213,8 @@ h1 {
     background-color: #F8F200;
     font-weight: 700;
     font-size: 18px;
-
+    position: relative;
+    bottom: 15px;
 }
 
 .S-2-inputs-data-text {
@@ -209,4 +223,43 @@ h1 {
     font-size: 12px;
     line-height: 100%;
     color:#FFFFFF;
+    margin-left: 10px;
+}
+
+.data::checkbox {
+    background-color: black;
+    border: #777777; 
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #777777;
+  cursor: pointer;
+}
+
+.custom-checkbox input {
+  display: none; /* Скрываем стандартный чекбокс */
+}
+
+.custom-checkbox span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Стилизуем галочку */
+.custom-checkbox input:checked + span::before {
+  content: '\2714'; /* Юникод-галочка */
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-size: 18px;
+  color: red; /* Цвет галочки */
 }
