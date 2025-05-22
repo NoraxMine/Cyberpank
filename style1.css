@@ -226,7 +226,7 @@ h1 {
     margin-left: 10px;
 }
 
-.data::checkbox {
+/* .data::checkbox {
     background-color: black;
     border: #777777; 
 }
@@ -242,7 +242,7 @@ input[type="checkbox"] {
 
 .custom-checkbox input {
   display: none; /* Скрываем стандартный чекбокс */
-}
+/* }
 
 .custom-checkbox span {
   display: inline-block;
@@ -254,12 +254,46 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* Стилизуем галочку */
+
 .custom-checkbox input:checked + span::before {
-  content: '\2714'; /* Юникод-галочка */
+  content: '\2714'; 
   position: absolute;
   top: 0;
   left: 4px;
   font-size: 18px;
-  color: red; /* Цвет галочки */
+  color: red; /
+} */ 
+
+.S-3 {
+    background-color: #F8F200;
+    width: 1920px;
+}
+
+.S-3-img {
+    position: relative;
+}
+
+.S-3-imgs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.S-3-logos {
+    display: flex;
+    position: relative;
+    left: 42px;
+}
+
+.S-3-text {
+    width: 624px;
+    height: 526px;
+    position: relative;
+    left: 32px;
+}
+
+.S-3-all {
+    display: flex;
+    position: relative;
+    left: 320px;
 }
