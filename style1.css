@@ -3,6 +3,14 @@
     src: url(fonts/ofont.ru_Archangelsk.ttf);
 }
 
+input {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 *{
     margin:0;
 }
@@ -59,10 +67,6 @@ h1 {
     font-size: 25px;
 }
 
-.S-2 {
-    width: 1920px;
-}
-
 .know_more {
     display: flex;
     border: none;
@@ -97,23 +101,32 @@ h1 {
     color:#686670;
 }
 
+.rectungls {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .rect1 {
-    margin-left: 32px;
+    position: relative;
+    left: 352px;
+    
 }
 
 .rect23 img {
     display: block;
-    margin-top: 10px;
-    margin-left: 320px;
+    position: relative;
+    left: 320px;
 }
 
-.rectungls {
-    display: flex;
-    margin-top: 70px;
+.rect3 {
+    position: relative;
+    top: 32px;
 }
 
 .S-2 {
     background-color: black;
+    width: 1920px;
 }
 
 .S-2-text {
@@ -169,6 +182,18 @@ h1 {
     height: 35px;
 }
 
+.name::placeholder {
+    color:#FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.email::placeholder {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 .email {
     background-color:black;
     border: solid 1px #777777;
@@ -186,15 +211,18 @@ h1 {
     height: 120px;
     margin-bottom: 35px;
     border: dashed #777777 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .scr-text {
     position: relative;
     top:39px;
     left: 137px;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 18px;
     color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .scr-text-formats {
@@ -202,7 +230,7 @@ h1 {
     font-weight: 300;
     color:#FFFFFF;
     position: relative;
-    top:67px;
+    top:58px;
     font-weight: 100;
 }
 
@@ -267,6 +295,12 @@ input[type="checkbox"] {
 .S-3 {
     background-color: #F8F200;
     width: 1920px;
+    height: 746px;
+}
+
+.S-3-wgrad {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .S-3-img {
@@ -283,6 +317,7 @@ input[type="checkbox"] {
     display: flex;
     position: relative;
     left: 42px;
+    top: 26px;
 }
 
 .S-3-text {
@@ -292,8 +327,83 @@ input[type="checkbox"] {
     left: 32px;
 }
 
+.S-3-text-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    position: relative;
+    top: 25px;
+    bottom: 25px;
+    font-family: "Roboto";
+}
+
+.S-3-text-motiv {
+    display: flex;
+    flex-direction: column;
+    word-spacing: 15px;
+    position: relative;
+    top: 35px;
+    width: 405x;
+    height: 150px;
+}
+
+.col {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 400;
+    font-size:18px;
+    font-family: "Roboto";
+}
+
+.sp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sparks {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 400;
+    font-size:18px;
+    font-family: "Roboto";
+}
+
+.lis {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 400;
+    font-size:18px;
+    font-family: "Roboto";
+}
+
+.S-3-button {
+    display: flex;
+    border: none;
+    color:#F8F200;
+    background-color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    width: 194px;
+    height: 59px;
+    position: relative;
+    top: 55px;
+}
+
 .S-3-all {
     display: flex;
     position: relative;
     left: 320px;
+}
+
+.S-4 {
+    display: flex;
+    background-color: black;
+    width: 1920px;
+    height: 717px;
 }
