@@ -3,14 +3,15 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Web_site</title>
+        <title>Cyberpank</title>
+        <link rel="icon" type="image/x-icon" href="assets/16x16.png">
         <link rel="stylesheet" href="style1.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-        <header class="H">
+        <header class="H" id="h">
             <div class="H-info">
                 <div class="H-top">
                                    
@@ -19,24 +20,21 @@
                             <img src="assets/Cyberpunk_2077_logo.svg" alt="logo">
                         </div>
                         <div class="H-logos">
-                            <a href="https://www.youtube.com/@CyberpunkGame" target="_blank"><img src="assets/youtube logo.svg" alt="youtube.com"></a>
+                            <a href="https://www.youtube.com/@CyberpunkGame" target="_blank"><img src="assets/youtube_logo.svg" alt="youtube.com"></a>
                             <a href="https://vk.com/cyberpunkgame" target="_blank"><img src="assets/VK.svg" alt="VK.com"></a>
-                            <a href="https://www.facebook.com/groups/Cyberpunk2077/?locale=ru_RU" target="_blank"><img src="assets/facebook-rect logo.svg" alt="facebook.com"></a>
-                            <a href="https://x.com/CyberpunkGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="assets/twitter-square logo.svg" alt="logo"></a>
-                            <a href="https://www.twitch.tv/directory/category/cyberpunk-2077" target="_blank"><img src="assets/twitch logo.svg" alt="twitch.com"></a>
-                            <a href="https://www.instagram.com/cyberpunkgame/" target="_blank"><img src="assets/instagram-square logo.svg" alt="instagram.com">                            
+                            <a href="https://www.facebook.com/groups/Cyberpunk2077/?locale=ru_RU" target="_blank"><img src="assets/facebook-rect_logo.svg" alt="facebook.com"></a>
+                            <a href="https://x.com/CyberpunkGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="assets/twitter-square_logo.svg" alt="logo"></a>
+                            <a href="https://www.twitch.tv/directory/category/cyberpunk-2077" target="_blank"><img src="assets/twitch_logo.svg" alt="twitch.com"></a>
+                            <a href="https://www.instagram.com/cyberpunkgame/" target="_blank"><img src="assets/instagram-square_logo.svg" alt="instagram.com"></a>                            
                         </div>
-
                     </div>    
                         <div class="H-back-text">
                             <button class="know_more">Узнать больше</button>
-                            <h1>Доступно на <br>
-                                всех платформах</h1>
+                            <h2>Доступно на <br>
+                                всех платформах</h2>
                             <img src="assets/yellow.svg" alt="Yellow">
                         </div>                        
                 </div>
-           
-                
             </div>
         </header>
         <main>
@@ -49,15 +47,14 @@
                     персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
                         <div class="rectungls">
                             <div class="rect23">
-                                <img src="assets/Rectangle 2.svg" alt="night_city">
-                                <img class="rect3" src="assets/Rectangle 3.svg" alt="motorbike">
+                                <img class="rect2" src="assets/Rectangle_2.svg" alt="night_city">
+                                <img class="rect3" src="assets/Rectangle_3.svg" alt="motorbike">
                             </div>
-                                <img class="rect1" src="assets/Rectangle 1.svg" alt="town">
+                                <img class="rect1" src="assets/Rectangle_1.svg" alt="town">
                         </div> 
                 </div>
-                
             </section>
-            <section class="S-2">
+            <section class="S-2" id="s-2">
                 <img src="assets/grad.svg" alt="Sell!">
                 <div>    
                     <div class="S-2-text">
@@ -70,32 +67,30 @@
                     </div>
                     <div class="S-2-forms">
                         <div class="S-2-inputs">
-                            <input class="name" type="name" placeholder="Как тебя зовут?">
+                            <input class="name" type="text" placeholder="Как тебя зовут?">
                             <input class="email" type="email" placeholder="Твой email">
                             <p class="screenshot"><span class="scr-text">Прикрепить скриншот</span><span class="scr-text-formats">.png / .jpg / .pdf</span></p>
-                            <label class="custom-checkbox">
-                                
-                            <!-- <input type="checkbox">
-                            <span></span>
-                            </label> -->
-
-                            <button class="send">Отправить</button>
-                            <p><input class="data"type="checkbox"><span class="S-2-inputs-data-text">Согласен на обработку персональных данных</span></p>
+                            <div class="box">
+                                    <input type="checkbox" id="checkbox" class="checkbox">
+                                    <label for="checkbox" class="checkbox-label"></label>
+                                <p class="check"><span class="S-2-inputs-data-text">Согласен на обработку персональных данных</span></p> 
+                            </div>       
                         </div>
+                        <div class="S-2-button"><button class="send">Отправить</button></div>
                         <div class="S-2-inputs-img">  
-                            <img src="assets/Play stations.svg" alt="Play stations">
+                            <img src="assets/Play_stations.svg" alt="Play stations">
                         </div> 
                     </div>
                 </div>
             </section>
-            <section class="S-3">
+            <section class="S-3" id="s-3">
                 <img src="assets/grad_2.svg" alt="grad2">
                 <div class="S-3-wgrad">
                     <div class="S-3-all">
                         <div class="S-3-imgs">
                             <img class="S-3-img" src="assets/monitor.svg" alt="Monitor">
                             <div class="S-3-logos">
-                                <img class="" src="assets/hp logo.svg" alt="Monitor">         
+                                <img class="" src="assets/hp_logo.svg" alt="Monitor">         
                                 <img class="" src="assets/Krest.svg" alt="Monitor">
                                 <img class="" src="assets/Cyberpunk_2077_bigger_logo.svg" alt="Monitor">
                             </div>
@@ -130,23 +125,21 @@
                             <p class="S-4-p_2"><img src="assets/Tablo.svg" alt="Tablo"><span class="tablo">Футляр с кодом для загрузки игры и дисками (pc)</span></p>
                             <p><img src="assets/gallery.svg" alt="Gallery"><span class="gallery">Справочник с информацией об игровом мире</span></p>
                         </div>
-                        
                         <div class="S-4-logoes">
                             <h3>Выберите платформу:</h3>
                             <div class="S-4-logoes-mini">
                                 <div class="l-1">
                                     <img src="assets/PC.svg" alt="PC" class="PC">
-                                    <img src="assets/stadia logo.svg" alt="stadia" class="Standia">
+                                    <img src="assets/stadia_logo.svg" alt="stadia" class="Standia">
                                 </div>
                                 <div class="l-2">
-                                    <img src="assets/xbox-one-3 logo.svg" alt="xbox" class="Xbox">
-                                    <img src="assets/Playstation logo.svg" alt="PS4" class="ps4">
+                                    <img src="assets/xbox-one-3_logo.svg" alt="xbox" class="Xbox">
+                                    <img src="assets/Playstation_logo.svg" alt="PS4" class="ps4">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </section>
         </main>
         <footer>
@@ -154,22 +147,18 @@
                 <div class="F-end">
                     <div class="F-imgs">
                         <img src="assets/Cyberpunk_2077_bigger_logo.svg" alt="Cyberpunk_2077_bigger_logo">
-                        <img src="assets/CD_Projekt_logo 1.svg" alt="CD_Projekt_logo" class="bird">  
+                        <img src="assets/CD_Projekt_logo_1.svg" alt="CD_Projekt_logo" class="bird">  
                     </div>
                     <div class="F-text">
-                        <p>Лицензия</p>
-                        <p class="polit">Политика конфиденциальности</p>
+                        <a  href="#s-3">Лицензия</a>
+                        <a href="#s-2"><span class="polit">Политика конфиденциальности</span></a>
+                        <a href="#h"><span class="main">Главная</span></a>
                     </div>
                 </div>
                 <div class="end">
             <p class="PROJEKT">CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
                 </div>
-            </div>
-                
-                
+            </div>   
         </footer>
 </body>
 </html>
-
-
-<!-- https://www.figma.com/design/fHUuyYOQEhTgg2YxcJD4B8/Cyberpunk--Copy-?node-id=2-614&t=vCnBW3lSMdYjIoUL-0 -->
