@@ -24,7 +24,7 @@ p {
     margin:0;
 }
 
-h1 {
+h2 {
     font-family: Archangelsk;
     font-weight: 400;
     font-size: 62px;
@@ -76,6 +76,8 @@ input:focus {
     height: 1000px;
 }
 
+
+
 .H-back {
     display: flex;
     width: 624px;
@@ -96,7 +98,7 @@ input:focus {
     height: 74px;
 }
 
-.H-back-text h2 {
+.H-back-text h1 {
     position: absolute;
     margin-left: 70px;
     margin-top: 70px;
@@ -137,7 +139,7 @@ input:focus {
     height: 78px;
 }
 
-.S-1 h1 {
+.S-1 h2 {
     margin-left: 320px;
     margin-top: 70px;
 }
@@ -247,7 +249,7 @@ input:focus {
 }
 
 .a input {
-    cursor: url("assets/Cyberpunk_icons/arrow.cur"), auto !important;
+    cursor: url("assets/Cyberpunk_icons/arrow.cur"), auto;
 }
 
 .S-2-inputs-data-text {
@@ -312,7 +314,7 @@ input:focus {
 }
 
 .data input {
-    cursor: url("assets/Cyberpunk_icons/arrow.cur"), auto !important;
+    cursor: url("assets/Cyberpunk_icons/arrow.cur"), auto;
 }
 
 .S-2-button {
@@ -349,6 +351,7 @@ input:focus {
     font-size: 18px;
     position: relative;
     bottom: 15px;
+    border: none;
 }
 
 .checkbox {
