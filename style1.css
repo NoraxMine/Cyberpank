@@ -1,3 +1,19 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
 @font-face {
     font-family: Archangelsk;
     src: url(fonts/ofont.ru_Archangelsk.ttf);
@@ -9,6 +25,7 @@ a {
 
 body {
     cursor: url('assets/Cyberpunk_icons/arrow.cur'), auto;
+    background-image: url('your-image.png'); /* замените на нужное изображение */
 }
 
 input {
@@ -71,18 +88,16 @@ input:focus {
 }
 
 .H {
-    background: url(assets/background.svg);
-    width: 1920px;
+    background: url(assets/background.svg) center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 1000px;
+    width: 100%;
 }
-
-
 
 .H-back {
     display: flex;
-    width: 624px;
-    height: 369px;    
-    margin-left: 200px;
+    margin: 0 auto;
 }
 
 .H-logos img {
@@ -93,36 +108,34 @@ input:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 320px 0 320px;
-    width: 1280px;
-    height: 74px;
+    padding-top: 20px;
 }
 
-.H-back-text h1 {
+.H-back-text-h2 {
     position: absolute;
-    margin-left: 70px;
+    margin-left: 695px;
     margin-top: 70px;
     font-family: Archangelsk;
     font-weight: 400;
     font-size: 62px;
-}
-
-.H-back-text-h2 {
-    width: 490px;
+    width: 484px;
+    text-align: left;
 }
 
 .H-back-text button {
     position:absolute;
     margin-top:221px;
-    margin-left: 70px;
+    margin-left: 695px;
+    text-align: left;
 }
 
 .H-back-text {
     position: relative;
-    left: 1046px;
-    top: 537px;
     font-weight: 100;
     font-size: 25px;
+    margin-top: 100px;
+    text-align: right;
+    top: 434px;
 }
 
 .know_more {
@@ -140,7 +153,6 @@ input:focus {
 }
 
 .S-1 h2 {
-    margin-left: 320px;
     margin-top: 70px;
 }
 
@@ -151,7 +163,6 @@ input:focus {
 
 .S-1_info {
     margin-top: 25px;
-    margin-left: 320px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -168,8 +179,8 @@ input:focus {
 
 .rect1 {
     position: relative;
-    left: 352px;
     transition: all 0.3s ease-in-out;
+    left: 32px;
 }
 
 .rect1:hover {
@@ -179,7 +190,6 @@ input:focus {
 .rect23 img {
     display: block;
     position: relative;
-    left: 320px;
 }
 
 .rect2 {
@@ -200,15 +210,21 @@ input:focus {
     transform: scale(1.1);
 }
 
+.grad1 {
+    position: relative;
+    right: 336px;
+    width: 1920px;
+}
+
 .S-2 {
     background-color: black;
     width: 1920px;
+    position: relative;
+    right: 340px;
 }
 
 .S-2-text {
     color:aliceblue;
-    position:relative; 
-    left: 320px;
 }
 
 .S-2-sell {
@@ -239,7 +255,6 @@ input:focus {
     display:flex;
     flex-direction:column;
     position: relative;
-    left:320px
 }
 
 .box {
@@ -267,7 +282,6 @@ input:focus {
     display:flex;
     align-items: center;
     position: relative;
-    left: 320px;
 }
 
 .name {
@@ -392,25 +406,33 @@ input:focus {
     color: white;
 }
 
+.grad2 {
+    position: relative;
+    right: 336px;
+    width: 1920px;
+}
+
 .S-3 {
     background-color: #F8F200;
     width: 1920px;
     height: 746px;
+    position: relative;
+    right: 340px;
 }
 
 .S-3-wgrad {
     margin-top: 70px;
     margin-bottom: 70px;
-}
-
-.S-3-img {
     position: relative;
+    right: 100px;
 }
 
 .S-3-imgs {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
+    right: 175px;
 }
 
 .S-3-logos {
@@ -424,7 +446,7 @@ input:focus {
     width: 624px;
     height: 526px;
     position: relative;
-    left: 32px;
+    right: 140px;
 }
 
 .S-3-text-p {
@@ -505,9 +527,16 @@ input:focus {
     background-color: black;
     width: 1920px;
     height: 717px;
+    position: relative;
+    right: 340px;
 }
 
-.S-4 h1 {
+.S-4-back {
+    position: relative;
+    right: 488px;
+}
+
+.S-4 h2 {
     color: #FFFFFF;
     margin-top: 70px;
     width: 624px;
@@ -522,6 +551,9 @@ input:focus {
 
 .S-4-block {
     margin-left: 32px;
+    position: relative;
+    bottom: 733px;
+    left: 454px;
 }
 
 .S-4-chose {
@@ -606,6 +638,11 @@ input:focus {
 
 .ps4 {
     margin-top: 55.53px;
+}
+
+.F {
+    position: relative;
+    right: 340px;
 }
 
 .F-end {
