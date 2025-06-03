@@ -212,8 +212,7 @@ input:focus {
 
 .grad1 {
     position: relative;
-    right: 2536px;
-    width: 7000px;
+    right: 340px;
 }
 
 .S-2 {
@@ -406,8 +405,7 @@ input:focus {
 
 .grad2 {
     position: relative;
-    right: 936px;
-    width: 3000px;
+    right: 340px;
 }
 
 .S-3 {
@@ -518,17 +516,21 @@ input:focus {
 }
 
 .S-4 {
-    display: flex;
     background-color: black;
-    width: 1920px;
     height: 717px;
     position: relative;
-    right: 340px;
+    left: 00px
 }
 
 .S-4-back {
     position: relative;
     right: 488px;
+}
+
+.S-4-bc {
+    background-color: #000000;
+    width: 5000px;
+    height: 717px;
 }
 
 .S-4 h2 {
@@ -679,12 +681,14 @@ input:focus {
     color: #FFFFFF;
     font-size: 12px;
     position: relative;
-    left: 834px;
+    left: 3834px;
     top: 13px;
 }
 
 .end {
-    width: 1920px;
+    width: 10000px;
     height: 40px;
+    position: relative;
+    right:3000px;
     background-color: black;
 }
